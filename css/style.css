@@ -1,0 +1,336 @@
+*{padding: 0; margin: 0;}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*----------------------*/
+/*---- Navigation ---- */
+/*----------------------*/
+.head{
+    background-color: #2b2b2b;
+    padding-bottom: 8px;
+}
+.navbar-brand {
+    font-size: 34px;
+    padding: 34px 15px;
+    color: darkorange;
+    font-weight: bold;
+}
+.navbar-brand:hover{
+
+    color: #fff;
+}
+.nav>li>a {
+    padding: 10px 35px;
+    color: white;
+}
+.nav>li>a:hover{
+    color: #3b3b3b;
+}
+.down{
+    border: 2px solid #fff;
+}
+
+.navbar-nav {
+    padding-top: 21px;
+}
+
+/*----------------------*/
+/*---- Slider ---- */
+/*----------------------*/
+.caption-edit{
+    bottom:30%;
+    font-family: 'Open Sans', sans-serif;
+}
+.caption-edit h1{
+    font-size: 48px;
+    font-weight: bold;
+
+}
+.caption-edit p{
+    padding: 9px 15px;
+
+}
+.btn-one{
+    padding: 9px 15px;
+    background: green;
+    border: none;
+}
+.caption-edit-two{
+    bottom: 35%;
+}
+.caption-edit-two h1{
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 5%;
+    font-family: sans-serif;
+}
+
+/*----------------------*/
+/*---- section two ---- */
+/*----------------------*/
+#section-two-wrapper{
+    padding: 83px 0 92px 0;
+}
+
+.manu-edit{
+    font-family: 'Open Sans', sans-serif;
+}
+.manu-edit i{
+    font-size: 102px;
+    color: #a3bd20;
+    padding-bottom: 29px;
+}
+.manu-edit h4{
+    color: black;
+    font-weight: bold;
+    padding-bottom: 13px;
+}
+.manu-edit p{
+    color: #a4a790;
+    padding-bottom: 15px;
+    line-height: 30px;
+}
+.btn-two{
+    padding: 5px 17px;
+    background: none;
+    border: 2px solid #eeeae5;
+    font-weight: 600;
+}
+.btn-two:hover{
+
+    background: #eeeae5;
+    color: #000000;
+}
+
+/*----------------------*/
+/*---- section three ---- */
+/*----------------------*/
+
+#section-three-wrapper{
+    background: url(../images/slider2-2.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+}
+.section-three-overlay{
+    width: 100%;
+    background-color: rgba(0,0,255, .4);
+
+}
+.templete-edit{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    padding: 137px 0px 179px 0px;
+}
+.templete-edit h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+.templete-edit p{
+    white-space: pre-line;
+    padding-bottom: 30px;
+}
+.btn-three{
+    padding: 16px 26px;
+    color: #fff;
+    background: #0090c7;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.btn-three:hover{
+    color: #3b3b3b;
+}
+.btn-four{
+    padding: 16px 26px;
+    color: #fff;
+    background: none;
+    border:2px solid #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+.btn-four:hover{
+    background: #fff;
+    color: #000000;
+}
+
+/*----------------------*/
+/*---- section five ---- */
+/*----------------------*/
+
+#section-five-wrapper{
+    background: url(../images/slider11-5.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+}
+.section-five-overlay{
+    background-color: rgba(0,0,0, .3);
+    width: 100%;
+}
+.section-five-overlay:hover{
+    background-color: rgba(0,0,0, .4);
+    width: 100%;
+}
+.templete-edit-two{
+    padding: 130px 0px 96px 0px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+.templete-edit-two h1{
+    font-weight: bold;
+}
+.templete-edit-two p{
+    font-size: 16px;
+    padding-bottom: 28px;
+    color: #d7d5d5;
+}
+.section-five-text{
+    padding-top: 30px;
+}
+/*----------------------*/
+/*---- section six ---- */
+/*----------------------*/
+
+#section-six-wrapper{
+    padding: 83px 0 92px 0;
+    background: #f7f7f7;
+}
+.sec-six-h4{
+    padding-top: 28px;
+}
+/*----------------------*/
+/*---- section seven ---- */
+/*----------------------*/
+
+#section-seven-wrapper {
+    padding: 40px 0px 50px 0px;
+}
+#section-seven-wrapper h1{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #3b3b3b;
+    padding: 30px 0px;
+    
+}
+.gallery-showcase{
+    width: 100%;
+}
+.gallery-photo{
+    width: 25%;
+    display: block;
+    float: left;
+    overflow: hidden;
+    background: #000;
+}
+.gallery-photo img{
+    width: 100%;
+    transform: scale(1.15);
+    transition: transform 0.5s,opacity 0.5s;
+    opacity: 0.7;
+}
+.gallery-photo img:hover{
+    transform: scale(1.03);
+    opacity: 1.0;
+}
+/*----------------------*/
+/*---- section eight ---- */
+/*----------------------*/
+
+#section-eight-wrapper{
+    padding: 0px 0px 39px 0px;
+}
+#section-eight-wrapper h1{
+     font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+     color: #3b3b3b;
+}
+.btn-five{
+    padding: 16px 26px;
+    color: #3b3b3b;
+    background: none;
+    border:2px solid #3b3b3b;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+     font-weight: bold;
+}
+
+/*----------------------*/
+/*---- section nine ---- */
+/*----------------------*/
+#section-nine-wrapper{
+    background: #eeeeee;
+    padding: 28px 0px 15px 0px;
+}
+#section-nine-wrapper h1{
+     font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+     color: #3b3b3b;
+}
+.social-list ul li{
+   text-decoration: none;
+}
+.social-list ul li i{
+  font-size: 55px;
+}
+/*----------------------*/
+/*---- section ELEVEN ---- */
+/*----------------------*/
+#gallery{
+    background-color:#dddddd ;
+    padding: 20px 0 30px 0;
+}
+#gallery h1{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 42px;
+}
+/*----------------------*/
+/*---- section twelve ---- */
+/*----------------------*/
+
+#contact{
+    padding: 14px 0 5px 0;
+    background-color: #4d4d4d;
+}
+#contact p{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 5px;
+}
+.footer_icon ul li a i{
+    font-size: 16px;
+    background-color:orange ;
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    color: white;
+    padding-top: 7px;
+    transition: all 1s;
+}
+.footer_icon ul li a i:hover{
+    color: blue;
+    transform: rotate(360deg);
+}
+/*
+  scroll to top
+*/
+.scroll-to-up{
+    margin-top: -50px;
+    margin-right: 17px;
+}
+.scrollup{
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    background: #00cccc;
+    text-align: center;
+    border-radius: 15%;
+}
+.scrollup i{
+    font-size: 35px;
+}
+.scroll-to-up:hover .scrollup i{
+    color: orange;
+}
